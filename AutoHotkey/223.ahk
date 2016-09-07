@@ -2,6 +2,8 @@
 LAlt & h::
 If GetKeyState("Ctrl", "Shift")
   Send, {SHIFT}+^{Left}
+Else If GetKeyState("Ctrl")
+  Send, ^{Left}
 Else If GetKeyState("Shift")
   Send, {SHIFT}+{Left}
 Else
@@ -10,6 +12,8 @@ Return
 LAlt & j::
 If GetKeyState("Ctrl", "Shift")
   Send, {SHIFT}+^{Up}
+Else If GetKeyState("Ctrl")
+  Send, ^{Up}
 Else If GetKeyState("Shift")
   Send, {SHIFT}+{Up}
 Else
@@ -18,6 +22,8 @@ Return
 LAlt & k::
 If GetKeyState("Ctrl", "Shift")
   Send, {SHIFT}+^{Down}
+Else If GetKeyState("Ctrl")
+  Send, ^{Down}
 Else If GetKeyState("Shift")
   Send, {SHIFT}+{Down}
 Else
@@ -26,19 +32,25 @@ Return
 LAlt & l::
 If GetKeyState("Ctrl", "Shift")
   Send, {SHIFT}+^{Right}
+Else If GetKeyState("Ctrl")
+  Send, ^{Right}
 Else If GetKeyState("Shift")
   Send, {SHIFT}+{Right}
 Else
   Send, {Right}
 Return
 LAlt & `;::
-If GetKeyState("Shift")
+If GetKeyState("Ctrl")
+  Send, ^{End}
+Else If GetKeyState("Shift")
   Send, {SHIFT}+{End}
 Else
   Send, {End}
 Return
 LAlt & g::
-If GetKeyState("Shift")
+If GetKeyState("Ctrl")
+  Send, ^{Home}
+Else If GetKeyState("Shift")
   Send, {SHIFT}+{Home}
 Else
   Send, {Home}
@@ -50,7 +62,7 @@ LAlt & b:: Send, {BS}
 LAlt & n:: Send, {BS}
 LAlt & m:: Send, {BS}
 RAlt & vk20sc039 :: Send, {vkF3sc029}
-LAlt & d:: Send, {Delete}
+; LAlt & d:: Send, {Delete}
 
 ; Shortcuts
 LAlt & q::Send,!{F4}
