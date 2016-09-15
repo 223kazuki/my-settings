@@ -11,7 +11,7 @@ Else If GetKeyState("LWin", "P")
 Else
   Send, {Left}
 Return
-LAlt & i::
+LAlt & k::
 If GetKeyState("Ctrl", "P") && GetKeyState("Shift", "P")
   Send, {Shift}+^{Up}
 Else If GetKeyState("Ctrl", "P")
@@ -23,7 +23,7 @@ Else If GetKeyState("LWin", "P")
 Else
   Send, {Up}
 Return
-LAlt & k::
+LAlt & l::
 If GetKeyState("Ctrl", "P") && GetKeyState("Shift", "P")
   Send, {Shift}+^{Down}
 Else If GetKeyState("Ctrl", "P")
@@ -35,7 +35,7 @@ Else If GetKeyState("LWin", "P")
 Else
   Send, {Down}
 Return
-LAlt & l::
+LAlt & `;::
 If GetKeyState("Ctrl", "P") && GetKeyState("Shift", "P")
   Send, {Shift}+^{Right}
 Else If GetKeyState("Ctrl", "P")
@@ -47,7 +47,7 @@ Else If GetKeyState("LWin", "P")
 Else
   Send, {Right}
 Return
-LAlt & `;::
+LAlt & '::
 If GetKeyState("Ctrl", "P")
   Send, ^{End}
 Else If GetKeyState("Shift", "P")
@@ -62,6 +62,22 @@ Else If GetKeyState("Shift", "P")
   Send, {SHIFT}+{Home}
 Else
   Send, {Home}
+Return
+LAlt & i::
+If GetKeyState("Ctrl", "P")
+  Send, ^{PgUp}
+Else If GetKeyState("Shift", "P")
+  Send, {SHIFT}+{PgUp}
+Else
+  Send, {PgUp}
+Return
+LAlt & o::
+If GetKeyState("Ctrl", "P")
+  Send, ^{PgDn}
+Else If GetKeyState("Shift", "P")
+  Send, {SHIFT}+{PgDn}
+Else
+  Send, {PgDn}
 Return
 
 ; Enter, Backspace, Delete, IME
@@ -85,4 +101,4 @@ LAlt & q::Send,!{F4}
 ; LAlt & v::Send,^{v}
 
 ; For launchy
-LWin & vk20sc039::Send,+{vk20sc039}
+LWin & vk20sc039::Send,^{F1}
