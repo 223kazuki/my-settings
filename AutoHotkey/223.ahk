@@ -8,6 +8,8 @@ Else If GetKeyState("Shift", "P")
   Send, +{Left}
 Else If GetKeyState("LWin", "P")
   Send, #{Left}
+Else If GetKeyState("RAlt", "P")
+  Send, !{Left}
 Else
   Send, {Left}
 Return
@@ -44,11 +46,15 @@ Else If GetKeyState("Shift", "P")
   Send, {SHIFT}+{Right}
 Else If GetKeyState("LWin", "P")
   Send, #{Right}
+Else If GetKeyState("RAlt", "P")
+  Send, !{Right}
 Else
   Send, {Right}
 Return
 LAlt & '::
-If GetKeyState("Ctrl", "P")
+If GetKeyState("Ctrl", "P") && GetKeyState("Shift", "P")
+  Send, {Shift}+^{End}
+Else If GetKeyState("Ctrl", "P")
   Send, ^{End}
 Else If GetKeyState("Shift", "P")
   Send, {SHIFT}+{End}
@@ -56,7 +62,9 @@ Else
   Send, {End}
 Return
 LAlt & h::
-If GetKeyState("Ctrl", "P")
+If GetKeyState("Ctrl", "P") && GetKeyState("Shift", "P")
+  Send, {Shift}+^{Home}
+Else If GetKeyState("Ctrl", "P")
   Send, ^{Home}
 Else If GetKeyState("Shift", "P")
   Send, {SHIFT}+{Home}
@@ -64,7 +72,9 @@ Else
   Send, {Home}
 Return
 LAlt & i::
-If GetKeyState("Ctrl", "P")
+If GetKeyState("Ctrl", "P") && GetKeyState("Shift", "P")
+  Send, {Shift}+^{PgUp}
+Else If GetKeyState("Ctrl", "P")
   Send, ^{PgUp}
 Else If GetKeyState("Shift", "P")
   Send, {SHIFT}+{PgUp}
@@ -72,7 +82,9 @@ Else
   Send, {PgUp}
 Return
 LAlt & o::
-If GetKeyState("Ctrl", "P")
+If GetKeyState("Ctrl", "P") && GetKeyState("Shift", "P")
+  Send, {Shift}+^{PgDn}
+Else If GetKeyState("Ctrl", "P")
   Send, ^{PgDn}
 Else If GetKeyState("Shift", "P")
   Send, {SHIFT}+{PgDn}
@@ -102,3 +114,6 @@ LAlt & q::Send,!{F4}
 
 ; For launchy
 LWin & vk20sc039::Send,^{F1}
+
+; For Clibor
+LWin & `::Send,^{F2}
