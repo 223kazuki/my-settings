@@ -51,7 +51,7 @@ Else If GetKeyState("RAlt", "P")
 Else
   Send, {Right}
 Return
-vk1Dsc07B & '::
+vk1Dsc07B & vkBAsc028::
 If GetKeyState("Ctrl", "P") && GetKeyState("Shift", "P")
   Send, {Shift}+^{End}
 Else If GetKeyState("Ctrl", "P")
