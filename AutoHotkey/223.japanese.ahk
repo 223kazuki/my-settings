@@ -117,3 +117,4 @@ LWin & vk20sc039::Send,^{F1}
 
 ; For Clibor
 LWin & `::Send,^{F2}
+
