@@ -111,6 +111,16 @@ vk1Dsc07B & q::Send,!{F4}
 ; vk1Dsc07B & x::Send,^{x}
 ; vk1Dsc07B & c::Send,^{c}
 ; vk1Dsc07B & v::Send,^{v}
+vk1Dsc07B & Numpad1::Send,{F1}
+vk1Dsc07B & Numpad2::Send,{F2}
+vk1Dsc07B & Numpad3::Send,{F3}
+vk1Dsc07B & Numpad4::Send,{F4}
+vk1Dsc07B & Numpad5::Send,{F5}
+vk1Dsc07B & Numpad6::Send,{F6}
+vk1Dsc07B & Numpad7::Send,{F7}
+vk1Dsc07B & Numpad8::Send,{F8}
+vk1Dsc07B & Numpad9::Send,{F9}
+vk1Dsc07B & Numpad0::Send,{F10}
 
 ; For launchy
 LWin & vk20sc039::Send,^{F1}

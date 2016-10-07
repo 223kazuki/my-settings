@@ -111,6 +111,16 @@ LAlt & q::Send,!{F4}
 ; LAlt & x::Send,^{x}
 ; LAlt & c::Send,^{c}
 ; LAlt & v::Send,^{v}
+LAlt & Numpad1::Send,{F1}
+LAlt & Numpad2::Send,{F2}
+LAlt & Numpad3::Send,{F3}
+LAlt & Numpad4::Send,{F4}
+LAlt & Numpad5::Send,{F5}
+LAlt & Numpad6::Send,{F6}
+LAlt & Numpad7::Send,{F7}
+LAlt & Numpad8::Send,{F8}
+LAlt & Numpad9::Send,{F9}
+LAlt & Numpad0::Send,{F10}
 
 ; For launchy
 LWin & vk20sc039::Send,^{F1}
