@@ -1,0 +1,82 @@
+﻿[AFXW]
+CFG=ON
+
+[EXT_NORMAL]
+E_000=txt
+N_000=""C:\Program Files\Sublime Text 3\sublime_text.exe" "$P\$F""
+E_001=java
+N_001=""C:\Program Files\Sublime Text 3\sublime_text.exe" "$P\$F""
+S_001=""C:\Program Files\TeraPad\TeraPad.exe" "$P\$F""
+E_002=xml
+N_002=""C:\Program Files\Sublime Text 3\sublime_text.exe" "$P\$F""
+E_003=xls
+N_003=""C:\Program Files (x86)\Microsoft Office\Office14\EXCEL.EXE" "$P\$F""
+E_004=xlsm
+N_004=""C:\Program Files (x86)\Microsoft Office\Office14\EXCEL.EXE" "$P\$F""
+E_005=xlsx
+N_005=""C:\Program Files (x86)\Microsoft Office\Office14\EXCEL.EXE" "$P\$F""
+E_006=docx
+N_006=""C:\Program Files (x86)\Microsoft Office\Office14\WINWORD.EXE" "$P\$F""
+E_007=html
+N_007=""C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "$P\$F""
+S_007=""C:\Program Files\Internet Explorer\iexplore.exe" "$P\$F""
+E_008=doc
+N_008=""C:\Program Files (x86)\Microsoft Office\Office14\WINWORD.EXE" "$P\$F""
+E_009=csv
+N_009=""C:\Program Files\Sublime Text 3\sublime_text.exe" "$P\$F""
+S_009=""C:\Program Files\TeraPad\TeraPad.exe" "$P\$F""
+E_010=rpt
+N_010=""C:\Program Files\TeraPad\TeraPad.exe" "$P\$F""
+E_011=ppt
+N_011=""C:\Program Files\Microsoft Office\Office14\POWERPNT.EXE" "$P\$F""
+E_012=log
+N_012=""C:\Program Files\TeraPad\TeraPad.exe" "$P\$F""
+E_013=pdf
+N_013=""C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "$P\$F""
+E_014=class
+N_014=""C:\Program Files\jd-gui-0.3.5.windows\jd-gui.exe" "$P\$F""
+E_015=zip
+N_015=""C:\Program Files\7-Zip\7zFM.exe" "$P\$F""
+E_016=pptx
+N_016=""C:\Program Files (x86)\Microsoft Office\Office14\POWERPNT.EXE" "$P\$F""
+E_017=TIF
+N_017=""C:\Program Files\Fuji Xerox\TIFFViewer\tiffview.exe" "$P\$F""
+E_018=htm
+N_018=""C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "$P\$F""
+S_018=""C:\Program Files\Internet Explorer\iexplore.exe" "$P\$F""
+E_019=url
+E_020=vbp
+N_020=""C:\tool\shortcuts\VB6.lnk" "$P\$F""
+E_021=sln
+N_021=""C:\Program Files\Microsoft Visual Studio 11.0\Common7\IDE\devenv.exe" "$P\$F""
+E_022=edm
+N_022=""C:\Program Files\OBER7\ober7.exe" "$P\$F""
+E_023=jar
+N_023=""C:\Program Files\7-Zip\7zFM.exe" "$P\$F""
+E_024=chm
+N_024=""C:\Windows\hh.exe" "$P\$F""
+E_025=xlsb
+N_025=""C:\Program Files\Microsoft Office\Office14\EXCEL.EXE" "$P\$F""
+E_026=vbs
+N_026="run "$P\$F""
+
+[KEY_DEF]
+KEY_00="explorer /select,$P"
+KEY_01=""C:\tool\cmder\Cmder.exe" $P"
+KEY_02="&CLIP $QN$JD$MF"
+KEY_03="&CLIP $QN$JD$MS"
+KEY_04="C:\Program Files\xyzzy\xyzzy.exe -f my-grep "$P""
+KEY_05="C:\tool\AiperEditex\AiperEditex.exe"
+KEY_06="cmd /k $"echo $P$""
+KEY_07="C:\223Tools\bin\MakeFileForm.exe"
+KEY_08=""C:\Program Files\Sublime Text 3\sublime_text.exe" "$P""
+KEY_09=""C:\223Tools\bin\RefileForm.exe"  $QN$JD$MF"
+KEY_10="C:\223Tools\bin\AllFiles.exe"
+KEY_11=""C:\Program Files\WinMerge\WinMergeU.exe" $MF $MO"
+KEY_24=""C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:update /path:"$P\" /notempfile /closeonend"
+KEY_25=""C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:commit /path:"$P\" /notempfile /closeonend"
+KEY_26=""C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:lock /path:"$P\" /notempfile /closeonend"
+KEY_27=""C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:unlock /path:"$P\" /notempfile /closeonend"
+KEY_32="C:\Program Files\TortoiseGit\bin\TortoiseProc.exe"
+
+[REG_DIR]

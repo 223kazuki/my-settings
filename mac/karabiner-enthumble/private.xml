@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<root>
+   <item>
+     <name>Enthumble</name>
+     <item>
+       <name>"Left command key + j/k" to cursor down/up</name>
+       <identifier>remap.left_command_jk_to_cursor</identifier>
+       <autogen>
+         __KeyToKey__
+         KeyCode::J, ModifierFlag::COMMAND_L,
+         KeyCode::CURSOR_DOWN,
+       </autogen>
+       <autogen>
+         __KeyToKey__
+         KeyCode::K, ModifierFlag::COMMAND_L,
+         KeyCode::CURSOR_UP,
+       </autogen>
+     </item>
+     <item>
+       <name>"Left command key + h/l" to cursor left/right</name>
+       <identifier>remap.left_command_hl_to_cursor</identifier>
+       <autogen>
+         __KeyToKey__
+         KeyCode::H, ModifierFlag::COMMAND_L,
+         KeyCode::CURSOR_LEFT,
+       </autogen>
+       <autogen>
+         __KeyToKey__
+         KeyCode::L, ModifierFlag::COMMAND_L,
+         KeyCode::CURSOR_RIGHT,
+       </autogen>
+     </item>
+     <item>
+       <name>"Left command key + m/n" to delete</name>
+       <identifier>remap.left_command_mn_to_delete</identifier>
+       <autogen>
+         __KeyToKey__
+         KeyCode::M, ModifierFlag::COMMAND_L,
+         KeyCode::DELETE,
+       </autogen>
+       <autogen>
+         __KeyToKey__
+         KeyCode::N, ModifierFlag::COMMAND_L,
+         KeyCode::DELETE,
+       </autogen>
+     </item>
+     <item>
+       <name>"Left command key + space" to enter</name>
+       <identifier>remap.left_command_space_to_enter</identifier>
+       <autogen>
+         __KeyToKey__
+         KeyCode::SPACE, ModifierFlag::COMMAND_L,
+         KeyCode::ENTER,
+       </autogen>
+     </item>
+     <item>
+       <name>"Left command key + Right command key" to escape</name>
+       <identifier>remap.left_command_right_command_to_escape</identifier>
+       <autogen>
+         __KeyToKey__
+         KeyCode::COMMAND_R, ModifierFlag::COMMAND_L,
+         KeyCode::ESCAPE,
+       </autogen>
+     </item>
+   </item>
+</root>
