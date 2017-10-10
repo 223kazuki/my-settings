@@ -97,6 +97,7 @@ LAlt & vk20sc039 :: Send, {Enter}
 RAlt & vk20sc039 :: Send, {vkF3sc029}
 LAlt & n:: Send, {BS}
 LAlt & m:: Send, {BS}
+LAlt & d:: Send, {DELETE}
 LAlt & u:: Send, {ESC}
 
 ; Shortcuts

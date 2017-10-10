@@ -97,6 +97,7 @@ vk1Dsc07B & vk20sc039 :: Send, {Enter}
 vk1Csc079 & vk20sc039 :: Send, {vkF3sc029}
 vk1Dsc07B & n:: Send, {BS}
 vk1Dsc07B & m:: Send, {BS}
+vk1Dsc07B & d:: Send, {DELETE}
 vk1Dsc07B & u:: Send, {ESC}
 
 ; Shortcuts
