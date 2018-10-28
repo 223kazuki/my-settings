@@ -15,14 +15,14 @@
                 },
                 "rules": [
                     {
-                        "description": "Change fn+jkl; to arrow keys",
+                        "description": "Change left_command+jkl; to arrow keys",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "j",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -41,7 +41,7 @@
                                     "key_code": "l",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -60,7 +60,7 @@
                                     "key_code": "k",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -79,7 +79,7 @@
                                     "key_code": "semicolon",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -98,7 +98,7 @@
                                     "key_code": "h",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -117,7 +117,7 @@
                                     "key_code": "quote",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -136,7 +136,7 @@
                                     "key_code": "1",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -155,7 +155,7 @@
                                     "key_code": "2",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -174,7 +174,7 @@
                                     "key_code": "3",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -193,7 +193,7 @@
                                     "key_code": "4",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -212,7 +212,7 @@
                                     "key_code": "5",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -231,7 +231,7 @@
                                     "key_code": "6",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -250,7 +250,7 @@
                                     "key_code": "7",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -269,7 +269,7 @@
                                     "key_code": "8",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -288,7 +288,7 @@
                                     "key_code": "9",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -307,7 +307,7 @@
                                     "key_code": "0",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -326,7 +326,7 @@
                                     "key_code": "hyphen",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -345,7 +345,7 @@
                                     "key_code": "equal_sign",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -364,7 +364,7 @@
                                     "key_code": "u",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -383,7 +383,7 @@
                                     "key_code": "i",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -402,7 +402,7 @@
                                     "key_code": "o",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -421,7 +421,7 @@
                                     "key_code": "d",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -440,7 +440,7 @@
                                     "key_code": "n",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -459,7 +459,7 @@
                                     "key_code": "spacebar",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -478,7 +478,7 @@
                                     "key_code": "tab",
                                     "modifiers": {
                                         "mandatory": [
-                                            "fn"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -604,15 +604,7 @@
                         "key_code": "caps_lock"
                     },
                     "to": {
-                        "key_code": "left_command"
-                    }
-                },
-                {
-                    "from": {
-                        "key_code": "left_command"
-                    },
-                    "to": {
-                        "key_code": "fn"
+                        "key_code": "right_command"
                     }
                 }
             ],
