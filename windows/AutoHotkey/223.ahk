@@ -93,8 +93,8 @@ Else
 Return
 
 ; Enter, Backspace, Delete, IME
-LAlt & vk20sc039 :: Send, {Enter}
-RAlt & vk20sc039 :: Send, {vkF3sc029}
+LAlt & vk20:: Send, {Enter}
+RAlt & vk20:: Send, {vkF3sc029}
 LAlt & n:: Send, {BS}
 LAlt & m:: Send, {BS}
 LAlt & d:: Send, {DELETE}
@@ -124,7 +124,7 @@ LAlt & 9::Send,{F9}
 LAlt & 0::Send,{F10}
 
 ; For launchy
-LWin & vk20sc039::Send,^{F1}
+LWin & vk20::Send,^{F1}
 
 ; For Clibor
 LWin & `::Send,^{F2}
